@@ -71,6 +71,22 @@ export default function Qualifications() {
   const certificationData = [
     {
       id: 1,
+      title: "Outstanding Developer Award",
+      institution: "Kumosoft Inc",
+      year: "2025",
+      description: "Recognized for exceptional performance, code quality, and strong contributions to company projects, including problem-solving, collaboration, and timely delivery of high-impact features.",
+      image: "/images/award.jpg"
+    },
+    {
+      id: 2,
+      title: "Participating in Gakkousoft Cybersecurity Data Privacy and Security Seminar",
+      institution: "Kumosoft Inc",
+      year: "2025",
+      description: "Attended a cybersecurity seminar covering data privacy, security best practices, and risk awareness in web development.",
+      image: "/images/participation.jpg"
+    },
+    {
+      id: 3,
       title: "Front End Certification",
       institution: "Zuitt",
       year: "2024",
@@ -78,7 +94,7 @@ export default function Qualifications() {
       image: "/images/cert1.jpeg"
     },
     {
-      id: 2,
+      id: 4,
       title: "Back End Certification",
       institution: "Zuitt",
       year: "2024",
@@ -86,7 +102,7 @@ export default function Qualifications() {
       image: "/images/cert2.jpeg"
     },
     {
-      id: 3,
+      id: 5,
       title: "Full Stack Certification",
       institution: "Zuitt",
       year: "2024",
@@ -94,7 +110,7 @@ export default function Qualifications() {
       image: "/images/cert3.jpeg"
     },
     {
-      id: 4,
+      id: 6,
       title: "Certification of Completion",
       institution: "Zuitt",
       year: "2024",
@@ -107,6 +123,18 @@ export default function Qualifications() {
   const projectsData = [
     {
       id: 1,
+      title: "School System Management",
+      institution: "Work Project",
+      year: "2025",
+      description: "Web-based school management system designed to streamline academic and administrative processes.",
+      image: "/images/school.png",
+      technologies: ["Laravel", "MySQL", "JavaScript", "jQuery"],
+      liveLink: "",
+      githubLink: "",
+      moreDescription: "A comprehensive school system management platform developed to manage student records, enrollment, grading, scheduling, and reporting. I worked on backend development, database design, and system optimization. Due to company policy and data privacy, the live system and source code cannot be shared.",
+    },
+    {
+      id: 2,
       title: "Snake Identification App",
       institution: "Capstone Project",
       year: "2025",
@@ -118,7 +146,7 @@ export default function Qualifications() {
       moreDescription: "This app helps users identify Philippine snake species through image recognition. Built with Flutter for cross-platform compatibility and TensorFlow for machine learning capabilities.",
     },
     {
-      id: 2,
+      id: 3,
       title: "Pokémon Web",
       institution: "Weekly Project",
       year: "2025",
@@ -130,7 +158,7 @@ export default function Qualifications() {
       moreDescription: "A feature-rich Pokémon web app that allows users to explore detailed Pokémon information, build custom teams, simulate battles, and track battle history. Uses React for the frontend and JSON Server for mock API responses.",
     },
     {
-      id: 3,
+      id: 4,
       title: "Todo List",
       institution: "Weekly Project 2",
       year: "2025",
@@ -142,7 +170,7 @@ export default function Qualifications() {
       moreDescription: "A clean, intuitive to-do list application with task prioritization, completion tracking, and responsive design. Built with React for state management and modern CSS for styling.",
     },
     {
-      id: 4,
+      id: 5,
       title: "Fast Food E-Commerce",
       institution: "IT Elective 2 Project",
       year: "2023",
